@@ -9,14 +9,13 @@ In this lab, you will become acquainted with Prometheus, set it up, and configur
 **6 Points:**
 
 1. Learn About Prometheus:
+
    - Begin by reading about Prometheus and its fundamental concepts:
      - [Prometheus Overview](https://prometheus.io/docs/introduction/overview/)
      - [Prometheus Naming Best Practices](https://prometheus.io/docs/practices/naming/)
 
 2. Integration with Docker Compose:
-   - Expand your existing `docker-compose.yml` file from the previous lab to include Prometheus.
 
-3. Prometheus Configuration:
    - Configure Prometheus to collect metrics from both Loki and Prometheus containers.
 
 4. Verify Prometheus Targets:
@@ -28,6 +27,7 @@ In this lab, you will become acquainted with Prometheus, set it up, and configur
 **4 Points:**
 
 1. Grafana Dashboards:
+
    - Set up dashboards in Grafana for both Loki and Prometheus.
    - You can use examples as references:
      - [Example Dashboard for Loki](https://grafana.com/grafana/dashboards/13407)
@@ -35,6 +35,7 @@ In this lab, you will become acquainted with Prometheus, set it up, and configur
    - Capture screenshots displaying your successful dashboard configurations and include them in `METRICS.md`.
 
 2. Service Configuration Updates:
+
    - Enhance the configuration of all services in the `docker-compose.yml` file:
      - Add log rotation mechanisms.
      - Specify memory limits for containers.
@@ -48,14 +49,13 @@ In this lab, you will become acquainted with Prometheus, set it up, and configur
 **To Earn 2.5 Additional Points:**
 
 1. Application Metrics:
+
    - Integrate metrics into your applications. You can refer to Python examples like:
      - [Monitoring a Synchronous Python Web Application](https://dzone.com/articles/monitoring-your-synchronous-python-web-application)
      - [Metrics Monitoring in Python](https://opensource.com/article/18/4/metrics-monitoring-and-python)
 
 2. Obtain Application Metrics:
-   - Configure your applications to export metrics.
 
-3. METRICS.md Update:
    - Document your progress with the bonus tasks, including screenshots, in the `METRICS.md` file.
 
 4. Health Checks:
