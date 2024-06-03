@@ -52,7 +52,6 @@ In this lab assignment, you will explore Infrastructure as Code (IAC) using Terr
    - Avoid placing your token as a variable in the code; instead, use an environment variable.
 
 2. Import Existing Repository:
-   - Use the `terraform import` command to import your existing GitHub repository into your Terraform configuration. Example: `terraform import "github_repository.core-course-labs" "core-course-labs"`.
 
 3. Apply Terraform Changes:
    - Apply changes from your Terraform configuration to your GitHub repository.

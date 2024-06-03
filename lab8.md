@@ -16,10 +16,6 @@ In this lab, you will become acquainted with Prometheus, set it up, and configur
 
 2. Integration with Docker Compose:
 
-   - Expand your existing `docker-compose.yml` file from the previous lab to include Prometheus.
-
-3. Prometheus Configuration:
-
    - Configure Prometheus to collect metrics from both Loki and Prometheus containers.
 
 4. Verify Prometheus Targets:
@@ -59,10 +55,6 @@ In this lab, you will become acquainted with Prometheus, set it up, and configur
      - [Metrics Monitoring in Python](https://opensource.com/article/18/4/metrics-monitoring-and-python)
 
 2. Obtain Application Metrics:
-
-   - Configure your applications to export metrics.
-
-3. METRICS.md Update:
 
    - Document your progress with the bonus tasks, including screenshots, in the `METRICS.md` file.
 
